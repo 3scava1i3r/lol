@@ -78,12 +78,12 @@ function StreamingPage({ episode, anime, episodeNumber, dub }) {
   return (
     <>
       <Head>
-        <title>{"Watch " + (anime?.title.english || anime?.title.romaji) + " Episode " + episodeNumber + " - Munchyroll "}</title>
+        <title>{"Watch " + (anime?.title.english || anime?.title.romaji) + " Episode " + episodeNumber + " - SushiStream "}</title>
         <meta name="description" content={anime?.synopsis} />
         <meta name="keywords" content={anime?.genres} />
         <meta
           property="og:title"
-          content={"Watch " + (anime?.title.english || anime?.title.romaji) + " Episode " + episodeNumber + " - Munchyroll "}
+          content={"Watch " + (anime?.title.english || anime?.title.romaji) + " Episode " + episodeNumber + " - SushiStream "}
         />
         <meta property="og:description" content={anime?.description} />
         <meta property="og:image" content={anime?.image} />

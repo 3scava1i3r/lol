@@ -21,8 +21,8 @@ export default function Home() {
 					)}
 				</div>
 				<Head>
-					<title>Munchyroll</title>
-					<meta name="title" content="Munchyroll" />
+					<title>SushiStream</title>
+					<meta name="title" content="SushiStream" />
 					<meta
 						name="description"
 						content="An ad-free anime streaming website aimed at minimality and responsive design. Share this with friends!"
@@ -31,7 +31,7 @@ export default function Home() {
 					<meta property="og:type" content="website" />
 					<meta
 						property="og:title"
-						content="Munchyroll"
+						content="SushiStream"
 					/>
 					<meta
 						property="og:description"
@@ -42,7 +42,7 @@ export default function Home() {
 					<meta property="twitter:card" content="summary_large_image" />
 					<meta
 						property="twitter:title"
-						content="Munchyroll"
+						content="SushiStream"
 					/>
 					<meta
 						property="twitter:description"

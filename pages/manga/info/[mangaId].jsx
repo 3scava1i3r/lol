@@ -30,12 +30,12 @@ function MangaDetailsPage({ mangaData }) {
   return (
     <>
       <Head>
-        <title>{title + " - Munchyroll"}</title>
+        <title>{title + " - SushiStream"}</title>
         <meta name="description" content={mangaData?.description} />
         <meta name="keywords" content={mangaData?.genres} />
         <meta
           property="og:title"
-          content={"Read " + title + " - Munchyroll "}
+          content={"Read " + title + " - SushiStream "}
         />
         <meta property="og:description" content={mangaData?.description} />
         <meta property="og:image" content={mangaData?.image} />

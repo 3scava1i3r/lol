@@ -32,12 +32,12 @@ function ReadingPage({ manga, chapter, chapterNumber, chapterId }) {
   return (
     <>
       <Head>
-        <title>{"Read " + (manga?.title.english || manga?.title.romaji) + " Chapter " + chapterNumber + " - Munchyroll "}</title>
+        <title>{"Read " + (manga?.title.english || manga?.title.romaji) + " Chapter " + chapterNumber + " - SushiStream "}</title>
         <meta name="description" content={manga?.synopsis} />
         <meta name="keywords" content={manga?.genres} />
         <meta
           property="og:title"
-          content={"Read " + (manga?.title.english || manga?.title.romaji) + " Chapter " + chapterNumber + " - Munchyroll "}
+          content={"Read " + (manga?.title.english || manga?.title.romaji) + " Chapter " + chapterNumber + " - SushiStream "}
         />
         <meta property="og:description" content={manga?.description} />
         <meta property="og:image" content={manga?.image} />
