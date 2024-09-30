@@ -25,17 +25,6 @@ function Footer() {
         <div className="pt-2 flex justify-between border-t-[2px] border-primary w-full">
           <p className="z-50 dark:text-primary-light text-primary text-sm">
           </p>
-          <div className="z-50 flex flex-row items-center space-x-3">
-            <Link title="Community Discord Server" href="https://discord.com/invite/JQsvHC4JUH" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
-              <FaDiscord size={25} color="grey " />
-            </Link>
-            <Link title="SushiStream Source Code" href="https://github.com/Jeydin21/SushiStream" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
-              <FaGithub size={25} color="grey" />
-            </Link>
-            <Link title="Jeydin21's Twitter" href="https://x.com/Jeydin21" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
-              <FaTwitter size={25} color="grey" />
-            </Link>
-          </div>
         </div>
       </footer>
     </>
