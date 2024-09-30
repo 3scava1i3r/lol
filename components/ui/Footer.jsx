@@ -1,6 +1,5 @@
 import Logo from "../ui/Logo";
 import Link from "next/link";
-import { FaGithub, FaDiscord, FaTwitter } from 'react-icons/fa';
 
 function Footer() {
   return (
